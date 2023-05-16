@@ -1,6 +1,10 @@
 # MongooseMongoDBConnection
 This repository consists a simple way to establish connection to MongoDB database using mongoose.
 
+# Seting Up
+Type `git clone NanduWasTaken/MongooseMongoDBConnection.git` into the terminal.
+
+
 # Single Step
 Go to [MongoDB](https://www.mongodb.com/) website and make a account and create your own database.
 Locate the MongoDB URI => Connect>Drivers
