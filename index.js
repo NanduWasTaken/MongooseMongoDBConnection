@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const newUser = require('./models/user.js');
 
 mongoose.connect(process.env.DPASS, {
   useNewUrlParser: true,
@@ -14,6 +13,7 @@ db.once("open", function () {
 
 async function hello(username, email, money) {
   try {
+    const newUser = require('./models/user.js');
     const exist = await newUser.findOne({ email: email });
     if (exist === null) {
       const newUserInstance = new newUser({
