@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.DPASS, {
+mongoose.connect('Super Secrect MongoDB URI Here', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
